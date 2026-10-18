@@ -1,0 +1,23 @@
+# Local credentials and configuration
+.env
+backend/.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+frontend/node_modules/
+
+# Build and test output
+frontend/dist/
+backend/tests/_schedule_export_test.csv
+
+# Local editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
